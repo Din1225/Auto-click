@@ -12,8 +12,9 @@ pyautogui.press("enter")
 pyautogui.press("winleft")
 pyautogui.typewrite("cmd")
 pyautogui.press("enter")
-
+pyautogui.PAUSE = 1.5
 pyautogui.typewrite("jupyter notebook")
+pyautogui.PAUSE = 0.8
 pyautogui.press("enter")
 
 # 開github
@@ -24,8 +25,8 @@ pyautogui.press("enter")
 pyautogui.PAUSE = 1.5
 pyautogui.moveTo(201,52)
 pyautogui.click(201,52)
-pyautogui.PAUSE = 0.8
 pyautogui.typewrite("https://github.com/Din1225?tab=repositories")
+pyautogui.PAUSE = 0.8
 pyautogui.press("enter")
 
 # discord
