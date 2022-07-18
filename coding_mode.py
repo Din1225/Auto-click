@@ -1,4 +1,5 @@
 import pyautogui
+
 pyautogui.PAUSE = 0.8                
 # 開寫code的程式
 pyautogui.press("winleft")
