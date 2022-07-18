@@ -12,7 +12,7 @@ pyautogui.press("enter")
 pyautogui.press("winleft")
 pyautogui.typewrite("cmd")
 pyautogui.press("enter")
-pyautogui.PAUSE = 1.5
+pyautogui.PAUSE = 2
 pyautogui.typewrite("jupyter notebook")
 pyautogui.PAUSE = 0.8
 pyautogui.press("enter")
