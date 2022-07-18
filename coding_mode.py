@@ -1,5 +1,5 @@
 import pyautogui
-pyautogui.PAUSE = 0.8                 
+pyautogui.PAUSE = 0.8                
 # 開寫code的程式
 pyautogui.press("winleft")
 pyautogui.typewrite("visual studio code")
@@ -9,17 +9,17 @@ pyautogui.press("winleft")
 pyautogui.typewrite("github desktop")
 pyautogui.press("enter")
 
+pyautogui.PAUSE = 5  
 pyautogui.press("winleft")
 pyautogui.typewrite("cmd")
 pyautogui.press("enter")
-pyautogui.PAUSE = 2
 pyautogui.typewrite("jupyter notebook")
-pyautogui.PAUSE = 0.8
 pyautogui.press("enter")
-pyautogui.PAUSE = 5
 
 # 開github
+pyautogui.PAUSE = 5
 pyautogui.press("winleft")
+pyautogui.PAUSE = 0.8
 pyautogui.typewrite("google chrome")
 pyautogui.press("enter")
 
