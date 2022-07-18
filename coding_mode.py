@@ -14,6 +14,7 @@ pyautogui.typewrite("cmd")
 pyautogui.press("enter")
 
 pyautogui.typewrite("jupyter notebook")
+pyautogui.press("enter")
 
 # 開github
 pyautogui.press("winleft")
